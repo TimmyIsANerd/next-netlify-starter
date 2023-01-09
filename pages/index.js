@@ -9,7 +9,7 @@ export default function Home() {
     setTimeOut(() =>{
       window.location.href = "https://techyjaunt.com";
     },3000)
-  },[})
+  },[])
   
   return (
     <div className="container">
