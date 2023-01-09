@@ -6,7 +6,7 @@ import React from 'react'
 
 export default function Home() {
   React.useEffect(() => {
-    setTimeOut(() =>{
+    setTimeout(() =>{
       window.location.href = "https://techyjaunt.com";
     },3000)
   },[])
