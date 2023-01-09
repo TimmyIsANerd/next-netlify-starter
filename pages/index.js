@@ -19,7 +19,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <Image src="http://localhost:5500/images/logo_techy.svg"  />
+        <Image src="https://techyjaunt.com/images/logo_techy.svg"  />
         <Header title="We are now Techy Jaunt!" />
         <p className="description">
           You will be redirected shortly
