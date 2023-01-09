@@ -1,19 +1,28 @@
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
+import Image from 'next/image'
+import React from 'react'
 
 export default function Home() {
+  React.useEffect(() => {
+    setTimeOut(() =>{
+      window.location.href = "https://techyjaunt.com";
+    },3000)
+  },[})
+  
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
+        <title>We are now Techy Jaunt!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
+        <Image src="http://localhost:5500/images/logo_techy.svg"  />
+        <Header title="We are now Techy Jaunt!" />
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          You will be redirected shortly
         </p>
       </main>
 
