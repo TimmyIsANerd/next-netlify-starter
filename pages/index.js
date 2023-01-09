@@ -8,7 +8,7 @@ export default function Home() {
   React.useEffect(() => {
     setTimeout(() =>{
       window.location.href = "https://techyjaunt.com";
-    },3000)
+    },5000)
   },[])
   
   return (
